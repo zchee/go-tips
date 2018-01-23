@@ -26,7 +26,7 @@ However, will successful with `-extldflags=-static`.
 In this case, go `link` linker will recognizes `link -fooflag -extldflags='-static`.  
 To be cleared, `link` passes flags to `extld` command(such as `ld`) `-static` only.
 
-As in the [golang/go/issues/6234](https://github.com/golang/go/issues/6234), need
+As in the [golang/go/issues/6234](https://github.com/golang/go/issues/6234) and [docker-library/golang/issues/152](https://github.com/docker-library/golang/issues/152), need
 
 ```sh
 #  -d	disable dynamic executable

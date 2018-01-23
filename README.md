@@ -29,7 +29,7 @@ To be cleared, `link` passes flags to `extld` command(such as `ld`) `-static` on
 As in the [golang/go/issues/6234](https://github.com/golang/go/issues/6234), need
 
 ```sh
-go bulid -ldflags="-w -s '-extldflags=-static -fooflag' example.com/john/doe"
+go build -ldflags="-d -s -w '-extldflags=-static'" example.com/john/doe
 ```
 
 Actually, We must be bracketed to `-extldflags=...` by a comma(`'`).  

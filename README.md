@@ -29,6 +29,10 @@ To be cleared, `link` passes flags to `extld` command(such as `ld`) `-static` on
 As in the [golang/go/issues/6234](https://github.com/golang/go/issues/6234), need
 
 ```sh
+#  -d	disable dynamic executable
+#  -s	disable symbol table
+#  -w	disable DWARF generation
+
 go build -ldflags="-d -s -w '-extldflags=-static'" example.com/john/doe
 ```
 

@@ -1,3 +1,5 @@
+ref: https://github.com/golang/go/issues/9369#issuecomment-69864440
+
 From the `func isStale()` in [$GOROT/src/cmd/go/pkg.go](https://github.com/golang/go/blob/master/src/cmd/go/pkg.go).
 
 # isStale and computeBuildID
